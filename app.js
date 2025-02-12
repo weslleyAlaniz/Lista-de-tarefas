@@ -7,6 +7,6 @@ function adicionarTarefa() {
         <div class="task">
             <input type="checkbox" class="checkbox">
             <label class="checkmark"></label>
-            <span class="task-text">${tarefa}</span> <!-- Aqui usamos a variável tarefa -->
+            <span class="task-text">${tarefa}</span>
         </div>`;
     }
