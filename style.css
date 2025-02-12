@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #2c1eae, #ab52a4);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 30%;
+    height: 50%;
+    background-color: #6189e8;
+    border-radius: 5%;
+    padding: 20px; 
+}
+    
+
+
+.ADD_task {
+    display: flex;
+    align-items: right;
+    width: 450px;
+    height: 50px; 
+    background-color: #ffffff; 
+    border-radius: 20px;
+    margin-top: 20px; 
+}
+
+.ADD_task_button {
+    display: inline-block;
+    cursor: pointer;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #2e52a5;
+    outline: none; 
+    border: none;
+    font-size: 15px;
+    position: relative;
+    z-index: 10;
+}
+
+.ADD_task_imput {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+/* .task {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-indent: 200%;
+    width: 450px;
+    height: 50px; 
+    background-color: #ffffff; 
+    border-radius: 20px;
+    margin-top: 20px; 
+} */
+    
+
+.task {
+    display: flex;
+    align-items: center;
+    text-indent: 15px;
+    width: 400px;
+    height: 50px; 
+    background-color: #ffffff; 
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+
+
+.checkbox:checked + .checkmark {
+    background-color: green;
+}
+
+
+.checkbox:checked + .checkmark + .task-text {
+    text-decoration: line-through;
+    color: gray;
+}
+
